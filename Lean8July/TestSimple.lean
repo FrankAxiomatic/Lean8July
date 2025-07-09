@@ -49,4 +49,4 @@ theorem mul_left_cancel_example (a b c : Nat) (h : a > 0) : a * b = a * c → b 
 
 -- Theorem about successor
 theorem succ_example (n : Nat) : n.succ = n + 1 := by
-  rfl
+  rfl..
